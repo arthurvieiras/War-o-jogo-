@@ -1,3 +1,23 @@
-.row {
-  margin-top: 10vh;
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.horizontal .card-image {
+  display: flex;
+  max-width: 30%;
+  padding: 20px;
+  align-items: center;
+}
+
+.card.horizontal .card-image img {
+    border-radius: 2px 0 0 2px;
+    width: 85px;
+    height: 85px;
+}
+
+.card-content a{
+  width: 100%;
+  margin: 8px 4px
 }
