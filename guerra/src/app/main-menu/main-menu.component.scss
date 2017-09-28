@@ -1,7 +1,13 @@
 .content {
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex: 1 0 auto;
+}
+
+.card {
+  width: 420px;
+  height: 220px;
+  margin-top: 84px;
 }
 
 .card.horizontal .card-image {
@@ -20,4 +26,14 @@
 .card-content a{
   width: 100%;
   margin: 8px 4px
+}
+
+.page-footer {
+  padding-top: 0;
+}
+
+.body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }

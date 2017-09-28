@@ -3,12 +3,13 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #ffee58;
   }
 
-  app-root {
-    height: 100vh;
-  }
+app-root {
+  height: 100vh;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+}

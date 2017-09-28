@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PhaserService } from './services/phaser.service';
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import { GameComponent } from './game/game.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,
