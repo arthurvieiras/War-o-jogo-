@@ -1,5 +1,4 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { PhaserService } from './services/phaser.service';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +8,7 @@ import { PhaserService } from './services/phaser.service';
 export class AppComponent implements OnInit {
   title = 'app';
 
-  constructor(@Inject(PhaserService) ps:PhaserService){
-    console.log(ps.Phaser);
-  }
+  constructor(){}
 
   ngOnInit(){
     //console.log(Phaser, this.title);

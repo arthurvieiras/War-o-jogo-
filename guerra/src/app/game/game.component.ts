@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { PhaserService } from '../services/phaser.service';
 
 @Component({
   selector: 'app-game',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GameComponent implements OnInit {
 
-  constructor() { }
+  constructor(@Inject(PhaserService) ps:PhaserService) {
+    console.log(ps.Phaser);
+  }
 
   ngOnInit() {
   }
