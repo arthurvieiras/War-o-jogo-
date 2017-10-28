@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { PhaserService } from './services/phaser.service';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { GameComponent } from './game/game.component';
+import { OptionsComponent } from './options/options.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainMenuComponent,
-    GameComponent
+    GameComponent,
+    OptionsComponent
   ],
   imports: [
     BrowserModule,
