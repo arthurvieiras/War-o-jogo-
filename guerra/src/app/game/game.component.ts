@@ -8,7 +8,7 @@ import { PhaserService } from '../services/phaser.service';
 })
 export class GameComponent implements OnInit {
 
-  constructor(@Inject(PhaserService) ps:PhaserService) {
+  constructor(@Inject(PhaserService) ps: PhaserService) {
     console.log(ps.Phaser);
   }
 
